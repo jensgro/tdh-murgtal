@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+/* individuelles JS */
+=======
 /* individuelles JS */
 
 
@@ -132,3 +135,4 @@ $.fn.ddTableFilter.defaultOptions = {
 })(jQuery);
 
 /* module table-1 script END */
+>>>>>>> 12fe57fdc2212e3e35a0aeb0f820d32ab7c544c7
