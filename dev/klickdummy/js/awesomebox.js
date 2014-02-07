@@ -96,6 +96,7 @@ function awesomebox(selector) {
 
     }
     this.show = function(){
+	self.list.find(':hidden').show();
         if(isMobile.any()){
             jQuery('body>*').hide();    
         }
@@ -103,8 +104,11 @@ function awesomebox(selector) {
         
         if(self.swipediv)
             self.swipediv.show();
-        
+        if(self.list.children().size() <2){
+		self.list.hide();
+	}
         self.listContReSize();
+
         if(!isMobile.any()){
             if(self.box.width()>self.list.width()){
                 self.box.find('.scrollleft').hide();
