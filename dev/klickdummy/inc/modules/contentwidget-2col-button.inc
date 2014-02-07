@@ -10,7 +10,7 @@
 		
 		<div class="cta cta-button">
 	<a class=" ym-clearfix" href="#">
-		<img src="images/spenden-icon.gif" alt="" />
+		<img src="images/spenden-icon.png" alt="" />
 		sicher &amp; schnell
 	<span>Online spenden bei terre des hommes Deutschland</span>
 	</a>
