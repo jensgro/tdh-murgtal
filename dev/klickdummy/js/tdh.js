@@ -360,7 +360,11 @@ $(document).ready(function() {
 
 		
 
-		/* article show more */
+		/* expandable articles */
+		/*
+			gets the last visible paragraph in each article
+			and places a link after it to show the hidden paragraphs		
+		*/
 		var articles = $(".expandable");
 
 		articles.each(function() {
@@ -375,12 +379,11 @@ $(document).ready(function() {
 				});
 				$(a).insertAfter(p);
 			}
-			
-		
 		});
 });
 
 
+/* shows all Paragraphs of an article */
 function showParagraphs(article) {
 	article.children("a").remove();
 	article.children("p").css("display","block");
@@ -393,6 +396,7 @@ function showParagraphs(article) {
 	$(a).insertAfter(p);
 }
 
+/* hides all paragraphs but the first two of an article */
 function hideParagraphs(article) {
 	article.children("a").remove();
 	article.children("p").css("display","none");
