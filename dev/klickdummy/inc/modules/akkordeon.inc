@@ -1,5 +1,5 @@
 ﻿
-<div class="a11yAccordeon akkordeon" id="accordeon2" role="tablist" multiselectable="true">	
+<div class="a11yAccordeon akkordeon" id="accordeon2" role="tablist">	
 	<ul class="level-1">
 		<!--Parent #1-->
 		<li class="akkordeon-inner" aria-controls="level-2" role="tab">
